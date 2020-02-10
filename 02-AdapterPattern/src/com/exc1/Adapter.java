@@ -10,5 +10,4 @@ public class Adapter implements Target{
 		adaptee.request();
 	}	
 	
-
 }
