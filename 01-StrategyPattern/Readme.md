@@ -338,7 +338,7 @@ public class PaycoPayment implements PaymentStrategy{
 	}
 }
 ```
-결과 값이다.
+수행을 해보면
 ```java
 public class MainApp {
 	
@@ -351,3 +351,10 @@ public class MainApp {
 	}
 }
 ```
+아래와 같은 결과 값이 나온다.
+```java
+페이코 결제입니다.  item : AABB#d 4 strategy : 01034497790
+```
+
+우리가 기존코드를 변경했는가? 아무것도 변경없이 신규 코드를 추가 함으로써 기능이 추가 됐다.
+이게 전략패턴의 장점이다!
