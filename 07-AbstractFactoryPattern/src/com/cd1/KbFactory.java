@@ -1,5 +1,6 @@
 package com.cd1;
 
+import com.abst.CancelPoint;
 import com.abst.CheckPoint;
 import com.abst.JonUseFactory;
 import com.abst.UsePoint;
@@ -17,6 +18,14 @@ public class KbFactory implements JonUseFactory{
 		// TODO Auto-generated method stub
 		return new KbUse();
 	}
+
+	@Override
+	public CancelPoint createCancelPoint() {
+		// TODO Auto-generated method stub
+		return new KbCancel();
+	}
+	
+	
 	
 	
 

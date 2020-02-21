@@ -22,7 +22,7 @@ public class JonUseLogic {
 
 
 
-	public JonUseFactory checkOut() {
+	public JonUseFactory getUseFactory() {
 		
 		if( list.getJonUseYn()=="Y") {
 					

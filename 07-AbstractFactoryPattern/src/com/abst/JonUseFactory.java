@@ -6,4 +6,6 @@ public interface JonUseFactory {
 	
 	public UsePoint createUsePoint();
 	
+	public CancelPoint createCancelPoint();
+	
 }
