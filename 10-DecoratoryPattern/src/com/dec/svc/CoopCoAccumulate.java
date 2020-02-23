@@ -2,7 +2,7 @@ package com.dec.svc;
 
 import com.dec.intf.Accumulate;
 
-public class CoopCoAccumulate extends BasicAccumulate{
+public class CoopCoAccumulate extends DecAccumulate{
 
 	public CoopCoAccumulate(Accumulate addAccumulate) {
 		super(addAccumulate);
@@ -12,7 +12,8 @@ public class CoopCoAccumulate extends BasicAccumulate{
 	@Override
 	public void accmulate() {
 		// TODO Auto-generated method stub
-		System.out.println("특정 제휴가 추가적립입니다.");
+		super.accmulate();
+		System.out.println("제휴사적립");
 	}
 	
 	

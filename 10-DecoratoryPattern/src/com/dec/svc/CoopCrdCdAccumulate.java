@@ -2,7 +2,7 @@ package com.dec.svc;
 
 import com.dec.intf.Accumulate;
 
-public class CoopCrdCdAccumulate extends BasicAccumulate {
+public class CoopCrdCdAccumulate extends DecAccumulate {
 
 	public CoopCrdCdAccumulate(Accumulate addAccumulate) {
 		super(addAccumulate);
@@ -12,10 +12,8 @@ public class CoopCrdCdAccumulate extends BasicAccumulate {
 	@Override
 	public void accmulate() {
 		// TODO Auto-generated method stub
-		System.out.println("특정카드 추가 적립입니다.");
+		super.accmulate();
+		System.out.println("카드코드적립");
 	}
-	
-	
-	
 
 }

@@ -2,7 +2,7 @@ package com.dec.svc;
 
 import com.dec.intf.Accumulate;
 
-public class OrganAccumulate extends BasicAccumulate {
+public class OrganAccumulate extends DecAccumulate {
 
 	public OrganAccumulate(Accumulate addAccumulate) {
 		super(addAccumulate);
@@ -12,9 +12,8 @@ public class OrganAccumulate extends BasicAccumulate {
 	@Override
 	public void accmulate() {
 		// TODO Auto-generated method stub
-		System.out.println("특정 기관 추가적립입니다.");
+		super.accmulate();
+		System.out.println("기관코드적립");
 	}
 	
-	
-
 }
